@@ -3,8 +3,8 @@ var path = require('path');
 module.exports = {
   entry: './app/index.jsx',
   output: {
-    path: __dirname,
-    filename: 'bundle.index.js'
+    path: 'build',
+    filename: 'bundle.js'
   },
   module: {
     rules: [
