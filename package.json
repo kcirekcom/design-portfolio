@@ -1,0 +1,42 @@
+{
+  "name": "design-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio for all design work.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "./node_modules/webpack/bin/webpack.js",
+    "build-watch": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kcirekcom/design-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kcirekcom/design-portfolio/issues"
+  },
+  "homepage": "https://github.com/kcirekcom/design-portfolio#readme",
+  "devDependencies": {
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "html-loader": "^0.4.5",
+    "node-sass": "^4.5.3",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router": "^4.1.1",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.18.1",
+    "webpack": "^2.6.1"
+  }
+}
