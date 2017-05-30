@@ -1,8 +1,13 @@
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+
 module.exports = {
   entry: './app/index.jsx',
   output: {
-    path: __dirname + '/build',
+    path: __dirname + '/build/js',
     filename: 'bundle.js'
+  },
+  sassLoader: {
+    includePaths: [`${__dirname}/app/scss`]
   },
   module: {
     rules: [
@@ -10,6 +15,14 @@ module.exports = {
         test: /.jsx?/,
         exclude: /node_modules/,
         loader: 'babel-loader'
+      },
+      {
+        test: /\.html$/,
+        loader: 'html'
+      },
+      {
+        test: /\.scss$/,
+        loader: ExtractTextPlugin.extract('style', 'css!resolve-url!sass?sourceMap')
       },
       {
         test: /\.(woff|ttf|svg|eot).*/,
