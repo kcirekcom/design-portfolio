@@ -4,7 +4,10 @@ import { Router, Route, browserHistory } from 'react-router';
 
 ReactDOM.render(
     <Router history={browserHistory}>
-        <Route path='/' component={App}/>
+        <Route path='/' component={HomePage}/>
+        <Route path='/visualizations' component={Visualization}/>
+        <Route path='/prototypes' component={Prototype}/>
+        <Route path='/development' component={Development}/>
     </Router>,
     document.getElementById('react-app')
 );
