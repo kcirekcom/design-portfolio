@@ -34,7 +34,7 @@ export default class extends React.Component {
                                 novel+novel
                             </h2>
 
-                            <div className='text-center iframe'>
+                            <div className='text-center modal-frame'>
                                 <iframe width='775' height='450' src='https://xd.adobe.com/embed/15575dd3-62a3-42f3-9921-3d1aed19ea0a/' frameBorder='0' allowFullScreen></iframe>
                             </div>
 

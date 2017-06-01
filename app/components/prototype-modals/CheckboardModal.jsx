@@ -34,7 +34,7 @@ export default class extends React.Component {
                                 the checkboard
                             </h2>
 
-                            <div className='text-center iframe'>
+                            <div className='text-center modal-frame'>
                                 <iframe width='350' height='450' src='https://xd.adobe.com/embed/dc1a78f8-80ad-4b3c-a922-b66fc7ad3f6f/' frameBorder='0' allowFullScreen></iframe>
                             </div>
 

@@ -26,6 +26,12 @@
             margin-bottom: 10px;
         }
 
+        .info {
+            width: 80%;
+            margin: 0 auto 10px;
+            line-height: 4vh;
+        }
+
         button {
            position: absolute;
            right: 20px;
@@ -36,5 +42,10 @@
     .modal-web {
         @extend .modal;
         width: 800px;
+
+        .web-h {
+            margin-top: 20px;
+            margin-bottom: -10px;
+        }
     }
 }

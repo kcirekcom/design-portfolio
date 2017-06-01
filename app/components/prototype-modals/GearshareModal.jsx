@@ -30,11 +30,11 @@ export default class extends React.Component {
                 {this.state.modal ? (
                     <div className='modal-bg'>
                         <div className='modal-web'>
-                            <h2 className='text-center gearshare'>
+                            <h2 className='text-center gearshare web-h'>
                                 GEARSHARE
                             </h2>
 
-                            <div className='text-center iframe'>
+                            <div className='text-center modal-frame'>
                                 <iframe width='775' height='450' src='https://xd.adobe.com/embed/ebca570e-b6c9-4d5d-9f4c-a59af87a5212/' frameBorder='0' allowFullScreen></iframe>
                             </div>
 

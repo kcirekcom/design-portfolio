@@ -34,8 +34,12 @@ export default class extends React.Component {
                                 ABBY
                             </h2>
 
-                            <div className='text-center iframe'>
+                            <div className='text-center modal-frame'>
                                 <iframe width='350' height='450' src='https://xd.adobe.com/embed/b6524554-a2bb-41d2-afe1-194e32511713/' frameBorder='0' allowFullScreen></iframe>
+                            </div>
+
+                            <div className='info'>
+                                Users are initially welcomed by ABBY and her accommodating greeting. This landing view provides users with three main options to move forward, including a login and signup option. The third option is a code input intended for users that are invited by companies to rate interface mockups.<br/><br/>FOR USER TESTERS: After inputting a code, users are directed to a terms and conditions screen. Scrolling to the bottom of this screen populates accept and reject buttons. If accepted, users are guided comfortably through the testing features and input sections.<br/><br/>FOR COMPANY USERS: After successful login and/or signup, this application displays a tab bar that navigates three main views. The primary view is an interface designed for uploading the interface mockups. The second view displays any data and results from that company's A/B tests. The third view is designed to be a tool that generates codes for user testers and tracks their completion status. There is also a settings icon in the top right corner of the header, so that users can access helpful tools and information at any point during the application's lifecycle.
                             </div>
 
                             <button type='button' onClick={this.close}>
