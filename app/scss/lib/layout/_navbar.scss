@@ -1,0 +1,45 @@
+.nav-links {
+    position: fixed;
+    top: 0;
+    right: 50px;
+    width: 15%;
+    z-index: 1000;
+}
+
+.nav-link-anchor {
+    text-align: center;
+    color: $black;
+    text-decoration: none;
+    display: block;
+    height: $navheight;
+    line-height: $navheight;
+    font-size: $font-sm;
+
+    &:hover {
+        background: $black;
+        color: $white;
+    }
+}
+
+.nav-brand {
+    position: fixed;
+    top: 0;
+    left: 50px;
+    width: 20%;
+    text-align: center;
+    z-index: 1000;
+
+    a {
+        font-size: $font-sm + 0.5em;
+        text-decoration: none;
+        display: block;
+        height: $navheight;
+        line-height: $navheight;
+        color: #000;
+
+        &:hover {
+            background: $black;
+            color: $white;
+        }
+    }
+}

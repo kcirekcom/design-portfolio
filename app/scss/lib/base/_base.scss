@@ -1,0 +1,53 @@
+h2 {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    font-size: $font-std;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.iframe {
+    display: block;
+    width: 560px;
+    margin: 15px auto;
+}
+
+button {
+    cursor: pointer;
+    border: $black;
+    border-radius: 3px;
+    background: $white;
+    color: $black;
+
+    &:hover {
+        background: $black;
+        color: $white;
+    }
+}
+
+.abby {
+    font-family: 'Baloo Da', cursive;
+}
+
+.checkboard {
+    font-family: 'Chalkboard', sans-serif;
+}
+
+.gearshare {
+    font-family: 'Rhodium Libre', serif;
+
+}
+
+.novel {
+    font-family: 'Helvetica Neue', sans-serif;
+}
