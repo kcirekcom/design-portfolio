@@ -22,3 +22,15 @@
     width: 97%;
     margin: 0 auto;
 }
+
+@media (max-width: 1000px) {
+    .click-img {
+        width: 475px;
+    }
+}
+
+// @media (max-width: 900px) {
+//     .click-img {
+//         width: 475px;
+//     }
+// }

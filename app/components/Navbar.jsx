@@ -12,6 +12,15 @@ export default class extends React.Component {
                     </a>
                 </h1>
 
+                <div className='responsive'>
+                    <ul>
+                        <li><a href='/' className='icon-profile'/></li>
+                        <li><Link className='icon-insert-template' to='/prototypes'/></li>
+                        <li><Link className='icon-terminal' to='/development'/></li>
+                        <li><Link className='icon-stats-dots' to='/visualizations'/></li>
+                    </ul>
+                </div>
+
                 <ul className='nav-links'>
                     <li>
                         <Link className='nav-link-anchor' to='/prototypes'>
