@@ -6,7 +6,7 @@ export default class extends React.Component {
 
         return (
             <nav>
-                <h1 className='nav-brand'>
+                <h1 className='nav-brand name'>
                     <a href='/'>
                         Erick F. Mock
                     </a>

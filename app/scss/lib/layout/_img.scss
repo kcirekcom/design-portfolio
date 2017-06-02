@@ -23,14 +23,20 @@
     margin: 0 auto;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
     .click-img {
         width: 475px;
     }
 }
 
-// @media (max-width: 900px) {
-//     .click-img {
-//         width: 475px;
-//     }
-// }
+@media (max-width: 900px) {
+    .click-img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 450px) {
+    .click-img {
+        width: 350px;
+    }
+}

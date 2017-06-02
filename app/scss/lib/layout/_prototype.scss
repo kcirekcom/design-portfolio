@@ -61,3 +61,15 @@
         background: #F26C4F;
     }
 }
+
+@media (max-width: 450px) {
+    .click-div {
+        width: 350px;
+
+        &:hover {
+            .hide {
+                font-size: 0.4em;
+            }
+        }
+    }
+}

@@ -71,10 +71,29 @@ button {
     letter-spacing: 2px;
 }
 
-@media (max-width: 1000px) {
+.name {
+    font-family: 'Qwigley', cursive;
+    font-size: $font-std - 0.5em; 
+}
+
+@media (max-width: 1050px) {
     .iframe {
         width: 475px;
         height: 275px;
+    }
+}
+
+@media (max-width: 550px) {
+    .iframe {
+        width: 400px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 450px) {
+    .iframe {
+        width: 350px;
+        height: 300px;
     }
 }
 
