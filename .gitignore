@@ -130,3 +130,5 @@ $RECYCLE.BIN/
 .nfs*
 
 build/
+
+archive.zip
