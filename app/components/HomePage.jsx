@@ -10,9 +10,9 @@ export default class extends React.Component {
                 <Navbar/>
 
                 <div className='about-info'>
-                    I am a graphic designer and JavaScript developer with full stack capabilities. I have a certificate in advanced software development in full-stack JavaScript along with a B.A. degree in psychology. I enjoy working with design software and web technologies to develop tools that enhance the user experience of creative platforms and interfaces.
+                    I am a graphic designer and JavaScript developer. I have a certificate in advanced software development in full stack JavaScript along with a B.A. degree in psychology. I enjoy working with design software and web technologies to develop tools that enhance the user experience of creative platforms and interfaces.
                     <br/><br/>
-                    As a graphic designer, I can offer a solid understanding of design principles in order to build sensible UI components and features for an application. With my education in psychology, I can also collaborate with others on theories and trends that will improve the UX development of any application. I enjoy researching data and behavior to deliver an enhanced user experience.
+                    As a graphic designer, I can offer a solid understanding of design principles in order to build sensible UI components and features for multiple applications. With my education in psychology, I can also collaborate with others on theories, trends and research that will improve the UX development of any application.
                     <br/><br/>
                     <ul className='social'>
                         <li><a href='https://github.com/kcirekcom' target='_blank' className='icon-github'/></li>

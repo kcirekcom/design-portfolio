@@ -46,7 +46,7 @@ export default class extends React.Component {
                             <div className='info'>
                                 Click <a href='http://www.mrspapers.com' target='_blank'>HERE</a> to view this website.
                                 <br/><br/>
-                                This application is a built-from-scratch blogging platform that uses the MEAN stack for development. It is connected to an API that I built called the publication-platform-backend. This site can incorporate many users, manuscripts and chapters, but it is currently deployed for personal use only.
+                                This application is a self-publishing platform that uses the MEAN stack for development. It delivers transactions to an API that I built, which allows the user to create and modify a manuscript by adding, updating and deleting chapters. This site has the scalability to include many users, but it is currently deployed for personal use only.
                             </div>
 
                             <button type='button' onClick={this.close}>

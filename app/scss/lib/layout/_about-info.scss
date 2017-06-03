@@ -1,6 +1,6 @@
 .about-info {
     width: 40%;
-    margin: 140px auto;
+    margin: 150px auto;
     line-height: 4vh;
 
     .social {
@@ -21,6 +21,7 @@
         }
     }
 
+
     @media (max-width: 900px) {
         width: 75%;
         margin: 200px auto;
@@ -28,6 +29,6 @@
 
     @media (max-width: 550px) {
         width: 75%;
-        margin: 100px auto;
+        margin: 120px auto;
     }
 }

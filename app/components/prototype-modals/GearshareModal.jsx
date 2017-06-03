@@ -35,7 +35,7 @@ export default class extends React.Component {
                             </h2>
 
                             <div className='text-center modal-frame'>
-                                <iframe width='775' height='450' src='https://xd.adobe.com/embed/ebca570e-b6c9-4d5d-9f4c-a59af87a5212/' frameBorder='0' allowFullScreen></iframe>
+                                <iframe className='artboard' src='https://xd.adobe.com/embed/ebca570e-b6c9-4d5d-9f4c-a59af87a5212/' frameBorder='0' allowFullScreen></iframe>
                             </div>
 
                             <div className='info'>

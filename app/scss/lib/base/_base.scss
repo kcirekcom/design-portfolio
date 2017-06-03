@@ -24,6 +24,20 @@ h3 {
 
 .modal-frame {
     margin: 15px auto;
+
+    .artboard {
+        width: 775px;
+        height: 450px;
+    }
+}
+
+.modal-frame-mobile {
+    margin: 15px auto;
+
+    .artboard-mobile {
+        width: 350px;
+        height: 450px;
+    }
 }
 
 .iframe {
@@ -100,5 +114,44 @@ button {
 @media (max-width: 900px) {
     h2 {
         margin-top: 120px;
+    }
+
+    .modal-frame {
+
+        .artboard {
+            width: 575px;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .modal-frame {
+
+        .artboard {
+            width: 375px;
+        }
+    }
+
+    .modal-frame-mobile {
+        
+        .artboard-mobile {
+            width: 300px;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .modal-frame {
+
+        .artboard {
+            width: 275px;
+        }
+    }
+
+    .modal-frame-mobile {
+        
+        .artboard-mobile {
+            width: 275px;
+        }
     }
 }

@@ -48,4 +48,27 @@
             margin-bottom: -10px;
         }
     }
+
+    @media (max-width: 900px) {
+        .modal-web {
+            width: 600px;
+        }
+    }
+
+    @media (max-width: 650px) {
+        .modal {
+            width: 400px;
+
+            button {
+                right: 3px;
+                top: 3px;
+            }
+        }
+    }
+
+    @media (max-width: 450px) {
+        .modal {
+            width: 300px;
+        }
+    }
 }
