@@ -1,7 +1,7 @@
 {
-  "name": "design-portfolio",
+  "name": "portfolio-2",
   "version": "1.0.0",
-  "description": "Portfolio for all design work.",
+  "description": "Portfolio for design and development work.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kcirekcom/design-portfolio.git"
+    "url": "git+https://github.com/kcirekcom/portfolio-2.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kcirekcom/design-portfolio/issues"
+    "url": "https://github.com/kcirekcom/portfolio-2/issues"
   },
-  "homepage": "https://github.com/kcirekcom/design-portfolio#readme",
+  "homepage": "https://github.com/kcirekcom/portfolio-2#readme",
   "devDependencies": {
     "webpack-dev-server": "^2.4.5"
   },

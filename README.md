@@ -1,2 +1,2 @@
-# design-portfolio
-Portfolio for all design work.
+# portfolio-2
+Portfolio for design and development work.
