@@ -8,7 +8,7 @@ import Prototype from './components/Prototype.jsx';
 import Development from './components/Development.jsx';
 import { Router, Route, browserHistory } from 'react-router';
 
-require('./scss/main.scss');
+import './scss/main.scss';
 
 ReactDOM.render(
     <Router history={browserHistory}>
