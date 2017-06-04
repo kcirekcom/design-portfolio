@@ -13,7 +13,7 @@ app.use(morgan(':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:htt
 
 app.use(express.static(`${__dirname}/build`));
 
-app.get('*', (req, res) => {
+app.get('/', (req, res) => {
   res.sendFile(`${__dirname}/build/index.html`);
 });
 
