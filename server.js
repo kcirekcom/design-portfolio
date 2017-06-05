@@ -29,6 +29,10 @@ app.get('/visualizations', (req, res) => {
   res.sendFile(`${__dirname}/build/index.html`);
 });
 
+app.get('/icon', (req, res) => {
+  res.sendFile(`${__dirname}/app/assets/e-icon.png`);
+});
+
 app.listen(PORT, () => {
   console.log(`server up: ${PORT}`);
 });
