@@ -17,6 +17,18 @@ app.get('/', (req, res) => {
   res.sendFile(`${__dirname}/build/index.html`);
 });
 
+app.get('/prototypes', (req, res) => {
+  res.sendFile(`${__dirname}/build/index.html`);
+});
+
+app.get('/development', (req, res) => {
+  res.sendFile(`${__dirname}/build/index.html`);
+});
+
+app.get('/visualizations', (req, res) => {
+  res.sendFile(`${__dirname}/build/index.html`);
+});
+
 app.listen(PORT, () => {
   console.log(`server up: ${PORT}`);
 });

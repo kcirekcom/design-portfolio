@@ -45,6 +45,8 @@ h3 {
     width: 560px;
     height: 315px;
     margin: 30px auto;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px rgba(0,0,0,0.3);
 }
 
 button {
@@ -97,7 +99,7 @@ button {
     }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 900px) {
     .iframe {
         width: 400px;
         height: 350px;

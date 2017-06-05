@@ -11,9 +11,6 @@ export default class extends React.Component {
         return (
            <div>
                 <Navbar/>
-
-                {/*<div className='vertical-line-left'></div>
-                <div className='vertical-line-right'></div>*/}
                 
                 <h2 className='text-center'>
                     Software Development

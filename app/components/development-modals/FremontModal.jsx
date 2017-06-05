@@ -26,7 +26,7 @@ export default class extends React.Component {
                     FREMONT PATROLLER
                 </h3>
 
-                <img className='click-img' onClick={this.show} src='/app/assets/websites/Fremont/Fremont-top.png' alt='Fremont Patroller top of page view'/>
+                <img className='click-img' onClick={this.show} src={require('../../assets/websites/Fremont/Fremont-top.png')} alt='Fremont Patroller top of page view'/>
 
                 {this.state.modal ? (
                     <div className='modal-bg'>
@@ -36,12 +36,12 @@ export default class extends React.Component {
                             </h2>
 
                             <div className='img-section'>
-                                <img className='img' src='/app/assets/websites/Fremont/Fremont-top.png' alt='Fremont Patroller top of page view'/>
-                                <img className='img' src='/app/assets/websites/Fremont/Fremont-about.png' alt='Fremont Patroller about section'/>
-                                <img className='img' src='/app/assets/websites/Fremont/Fremont-data-1.png' alt='Fremont Patroller data section first view'/>
-                                <img className='img' src='/app/assets/websites/Fremont/Fremont-data-2.png' alt='Fremont Patroller data section second view'/>
-                                <img className='img' src='/app/assets/websites/Fremont/Fremont-data-3.png' alt='Fremont Patroller data section third view'/>
-                                <img className='img' src='/app/assets/websites/Fremont/Fremont-history.png' alt='Fremont Patroller history section'/>
+                                <img className='img' src={require('../../assets/websites/Fremont/Fremont-top.png')} alt='Fremont Patroller top of page view'/>
+                                <img className='img' src={require('../../assets/websites/Fremont/Fremont-about.png')} alt='Fremont Patroller about section'/>
+                                <img className='img' src={require('../../assets/websites/Fremont/Fremont-data-1.png')} alt='Fremont Patroller data section first view'/>
+                                <img className='img' src={require('../../assets/websites/Fremont/Fremont-data-2.png')} alt='Fremont Patroller data section second view'/>
+                                <img className='img' src={require('../../assets/websites/Fremont/Fremont-data-3.png')} alt='Fremont Patroller data section third view'/>
+                                <img className='img' src={require('../../assets/websites/Fremont/Fremont-history.png')} alt='Fremont Patroller history section'/>
                             </div>
 
                             <div className='info'>

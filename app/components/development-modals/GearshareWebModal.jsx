@@ -26,7 +26,7 @@ export default class extends React.Component {
                     GEARSHARE
                 </h3>
 
-                <img className='click-img' onClick={this.show} src='/app/assets/websites/GS/GS-landing.png' alt='GEARSHARE landing view'/>
+                <img className='click-img' onClick={this.show} src={require('../../assets/websites/GS/GS-landing.png')} alt='GEARSHARE landing view'/>
 
                 {this.state.modal ? (
                     <div className='modal-bg'>
@@ -36,11 +36,11 @@ export default class extends React.Component {
                             </h2>
 
                             <div className='img-section'>
-                                <img className='img' src='/app/assets/websites/GS/GS-landing.png' alt='GEARSHARE landing view'/>
-                                <img className='img' src='/app/assets/websites/GS/GS-landing-2.png' alt='GEARSHARE landing view with sign in and sign up'/>
-                                <img className='img' src='/app/assets/websites/GS/GS-home.png' alt='GEARSHARE home view'/>
-                                <img className='img' src='/app/assets/websites/GS/GS-profile.png' alt='GEARSHARE profile view'/>
-                                <img className='img' src='/app/assets/websites/GS/GS-bin.png' alt='GEARSHARE bin component view'/>
+                                <img className='img' src={require('../../assets/websites/GS/GS-landing.png')} alt='GEARSHARE landing view'/>
+                                <img className='img' src={require('../../assets/websites/GS/GS-landing-2.png')} alt='GEARSHARE landing view with sign in and sign up'/>
+                                <img className='img' src={require('../../assets/websites/GS/GS-home.png')} alt='GEARSHARE home view'/>
+                                <img className='img' src={require('../../assets/websites/GS/GS-profile.png')} alt='GEARSHARE profile view'/>
+                                <img className='img' src={require('../../assets/websites/GS/GS-bin.png')} alt='GEARSHARE bin component view'/>
                             </div>
 
                             <div className='info'>

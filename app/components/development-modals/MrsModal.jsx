@@ -26,7 +26,7 @@ export default class extends React.Component {
                     MRS papers
                 </h3>
 
-                <img className='click-img' onClick={this.show} src='/app/assets/websites/MRS/MRS-chapters.png' alt='MRS chapter view'/>
+                <img className='click-img' onClick={this.show} src={require('../../assets/websites/MRS/MRS-chapters.png')} alt='MRS chapter view'/>
 
                 {this.state.modal ? (
                     <div className='modal-bg'>
@@ -36,11 +36,11 @@ export default class extends React.Component {
                             </h2>
 
                             <div className='img-section'>
-                                <img className='img' src='/app/assets/websites/MRS/MRS-home.png' alt='MRS home view'/>
-                                <img className='img' src='/app/assets/websites/MRS/MRS-chapters.png' alt='MRS chapter view'/>
-                                <img className='img' src='/app/assets/websites/MRS/MRS-admin-login.png' alt='MRS admin login view'/>
-                                <img className='img' src='/app/assets/websites/MRS/MRS-admin-1.png' alt='MRS first admin view'/>
-                                <img className='img' src='/app/assets/websites/MRS/MRS-admin-2.png' alt='MRS second admin view'/>
+                                <img className='img' src={require('../../assets/websites/MRS/MRS-home.png')} alt='MRS home view'/>
+                                <img className='img' src={require('../../assets/websites/MRS/MRS-chapters.png')} alt='MRS chapter view'/>
+                                <img className='img' src={require('../../assets/websites/MRS/MRS-admin-login.png')} alt='MRS admin login view'/>
+                                <img className='img' src={require('../../assets/websites/MRS/MRS-admin-1.png')} alt='MRS first admin view'/>
+                                <img className='img' src={require('../../assets/websites/MRS/MRS-admin-2.png')} alt='MRS second admin view'/>
                             </div>
 
                             <div className='info'>
