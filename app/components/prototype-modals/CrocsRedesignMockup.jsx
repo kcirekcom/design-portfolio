@@ -39,14 +39,18 @@ export default class extends React.Component {
                             </div>
 
                             <div className='info'>
-                                Click around to navigate. Any possible interactions will highlight blue when you click onto the artboard above.
+                                Click around to navigate. Any possible interactions will highlight blue when you click onto the artboard above. Scroll down on the landing page to view interactions linked to the orange classic clog image under the "Recommended Just For You" section.
                                 <br/><br/>
-                                Click <a href='https://xd.adobe.com/view/ebca570e-b6c9-4d5d-9f4c-a59af87a5212/' target='_blank'>HERE</a> for a slideshow view.
+                                Click <a href='https://xd.adobe.com/view/c1d822e9-a4a2-472e-ae32-ae528cd03489/' target='_blank'>HERE</a> for a slideshow view.
                                 <br/><br/>
-                                This web application was fun to wireframe and actually build out with some of my colleagues. Although the product doesn't look like the artboard slides, I learned so much from this process of collaborating with other individuals. Not everything can be implemented within a specific timeframe, and some things will be scratched completely because they may not align with a company vision. This is a valuable process that I have no hard feelings for.
+                                ***I WAS NOT CONTRACTED BY CROCS TO DO THIS.***
                                 <br/><br/>
-                                There are still a few similarities between this mockup and the built-out product. The first is the landing view that includes both sign in and sign up components in one place, so users don't have to navigate between views to do either. The second is the navbar that is displayed once users are redirected internally, which features a "new post" button. This allows users to post at any point during a session. The final similarity is the filtering option for ski, snowboard and soft goods. The core filtering functionality is there with some added options in the built-out product.
-                            </div>                            
+                                I just saw this as a fun opportunity to wireframe new features and reorganize some of the landing page content for this major retail website. The features include a toggleable navbar and a re-envisioned image slider. In this personal project, I prototyped the features and then built out the functionality for the image slider in the CODEPEN editor below. The image slider is enabled automatically and has clickable thumbnail images that appear in the center container when selected. The center container also has zoomable functionality. You can click on the "Edit on CODEPEN" link in the upper right of the editor for a better view.
+                            </div>
+
+                            <div className='text-center modal-frame'>
+                                <iframe className='artboard' scrolling='no' title='slider + zoom' src='//codepen.io/kcire_kcom/embed/pwezOQ/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameBorder='no' allowTransparency='true' allowFullScreen='true'></iframe>      
+                            </div>
 
                             <button className='text-center' type='button' onClick={this.close}>
                                 Close
