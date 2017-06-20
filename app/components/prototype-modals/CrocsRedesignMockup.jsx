@@ -45,7 +45,7 @@ export default class extends React.Component {
                                 <br/><br/>
                                 ***I WAS NOT CONTRACTED BY CROCS TO DO THIS.***
                                 <br/><br/>
-                                I just saw this as a fun opportunity to wireframe new features and reorganize some of the landing page content for this major retail website. The features include a toggleable navbar and a reimagined image slider. In this personal project, I prototyped the features and then built out the functionality for the image slider in the CODEPEN editor below. The image slider is enabled automatically and has clickable thumbnail images that appear in the center container when selected. The center container also has zoomable functionality. You can click on the "Edit on CODEPEN" link in the upper right of the editor for a better view.
+                                I just saw this as a fun opportunity to wireframe new features and reorganize some of the landing page content for this major retail website. The features include a toggleable navbar and a reimagined image slider. In this personal project, I prototyped the features and then built out the functionality for the image slider in the CODEPEN editor below. The image slider is enabled automatically and has clickable thumbnail images that appear in the center container when selected. The center container also has zoomable functionality. For a better view, click on the "Edit on CODEPEN" link in the upper right of the editor.
                             </div>
 
                             <div className='text-center modal-frame'>
