@@ -30,7 +30,7 @@
     }
 }
 
-.abby-click, .checkboard-click, .gearshare-click, .novel-click {
+.abby-click, .checkboard-click, .gearshare-click, .novel-click, .crocs-click {
     @extend .click-div;
 }
 
@@ -59,6 +59,13 @@
 
     &:hover {
         background: #F26C4F;
+    }
+}
+
+.crocs-click {
+
+    &:hover {
+        background: #2976AA;
     }
 }
 

@@ -92,6 +92,10 @@ button {
     font-size: $font-std - 0.5em; 
 }
 
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
 @media (max-width: 1050px) {
     .iframe {
         width: 475px;
