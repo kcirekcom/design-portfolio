@@ -6,12 +6,12 @@ import HomePage from './components/HomePage.jsx';
 import Visualization from './components/Visualization.jsx';
 import Prototype from './components/Prototype.jsx';
 import Development from './components/Development.jsx';
-import { Router, Route, hashHistory } from 'react-router';
+import { Router, Route, browserHistory } from 'react-router';
 
 import './scss/main.scss';
 
 ReactDOM.render(
-    <Router history={hashHistory}>
+    <Router history={browserHistory}>
         <Route path='/' component={HomePage}/>
         <Route path='/visualizations' component={Visualization}/>
         <Route path='/prototypes' component={Prototype}/>
