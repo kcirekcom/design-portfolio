@@ -25,6 +25,7 @@ export default class extends React.Component {
                 <div className='novel-click' onClick={this.show}>
                     <div className='show novel'>novel+novel</div>
                     <div className='hide'>Web application idea/design for social networking between writers and publishers/agents.</div>
+                    <div className='glare'/>
                 </div>
 
                 {this.state.modal ? (

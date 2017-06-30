@@ -25,6 +25,7 @@ export default class extends React.Component {
                 <div className='gearshare-click' onClick={this.show}>
                     <div className='show gearshare'>GEARSHARE</div>
                     <div className='hide'>Original design concept for the GEARSHARE web application I contributed to.</div>
+                    <div className='glare'/>
                 </div>
 
                 {this.state.modal ? (

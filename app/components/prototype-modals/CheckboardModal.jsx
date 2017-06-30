@@ -25,6 +25,7 @@ export default class extends React.Component {
                 <div className='checkboard-click' onClick={this.show}>
                     <div className='show checkboard'>the checkboard</div>
                     <div className='hide'>Mobile application idea/design for goal setting and personal accountability.</div>
+                    <div className='glare'/>
                 </div>
 
                 {this.state.modal ? (

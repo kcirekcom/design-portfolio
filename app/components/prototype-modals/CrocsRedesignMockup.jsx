@@ -25,6 +25,7 @@ export default class extends React.Component {
                 <div className='crocs-click' onClick={this.show}>
                     <div className='show montserrat'>crocs redesign</div>
                     <div className='hide'>THIS IS ONLY A PERSONAL PROJECT. I was not contracted by Crocs to do this.</div>
+                    <div className='glare'/>
                 </div>
 
                 {this.state.modal ? (

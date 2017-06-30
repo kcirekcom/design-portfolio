@@ -25,6 +25,7 @@ export default class extends React.Component {
                 <div className='abby-click' onClick={this.show}>
                     <div className='show abby'>ABBY</div>
                     <div className='hide'>Mobile application idea/design for rating mobile interface mockups and reporting A/B testing results.</div>
+                    <div className='glare'/>
                 </div>
 
                 {this.state.modal ? (
