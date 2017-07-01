@@ -22,12 +22,13 @@
 
     .proto:hover .preview-proto, .dev:hover .preview-dev, .viz:hover .preview-viz {
         background: $black;
-        position: fixed;
+        position: absolute;
         display: block;
         top: 0;
-        right: 18.75%;
+        right: 100%;
 
-        width: 59.5%;
+        width: 225%;
+        padding: 0 6%;
 
         z-index: 1000;
 
@@ -69,8 +70,7 @@
         right: 35px;
 
         .proto:hover .preview-proto, .dev:hover .preview-dev, .viz:hover .preview-viz {
-            width: 61.5%;
-            right: 18.25%;
+           padding: 0 10%; 
         }
     }
 }
