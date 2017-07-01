@@ -18,6 +18,10 @@ h3 {
     display: none;
 }
 
+.preview-proto, .preview-dev, .preview-viz {
+    @extend .hide;
+}
+
 .show {
     display: block;
 }

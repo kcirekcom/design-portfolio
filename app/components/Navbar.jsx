@@ -23,19 +23,35 @@ export default class extends React.Component {
 
                 <ul className='nav-links'>
                     <li>
-                        <Link className='nav-link-anchor' to='/prototypes'>
+                        <Link className='nav-link-anchor proto' to='/prototypes'>
                             Prototypes
-                        </Link>
-                    </li>
-                    <li>
-                        <Link className='nav-link-anchor' to='/development'>
-                            Development
+
+                            <div className='preview-proto'>
+                                Page Preview
+                                <img className='img-preview' src={require('../assets/screenshots/Prototypes-SC.png')} alt='Prototypes page screenshot'/>
+                            </div>
                         </Link>
                     </li>
 
                     <li>
-                        <Link className='nav-link-anchor' to='/visualizations'>
+                        <Link className='nav-link-anchor dev' to='/development'>
+                            Development
+
+                            <div className='preview-dev'>
+                                Page Preview
+                                <img className='img-preview' src={require('../assets/screenshots/Development-SC.png')} alt='Development page screenshot'/>
+                            </div>
+                        </Link>
+                    </li>
+
+                    <li>
+                        <Link className='nav-link-anchor viz' to='/visualizations'>
                             Visualizations
+
+                            <div className='preview-viz'>
+                                Page Preview
+                                <img className='img-preview' src={require('../assets/screenshots/Visualizations-SC.png')} alt='Development page screenshot'/>
+                            </div>
                         </Link>
                     </li>
                 </ul>

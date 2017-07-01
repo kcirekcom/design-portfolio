@@ -19,6 +19,22 @@
             color: $white;
         }
     }
+
+    .proto:hover .preview-proto, .dev:hover .preview-dev, .viz:hover .preview-viz {
+        background: black;
+        position: fixed;
+        display: block;
+        top: 0;
+        right: 18%;
+
+        width: 60%;
+
+        z-index: 1000;
+
+        .img-preview {
+            width: 90%;
+        }
+    }
 }
 
 .nav-brand {
@@ -51,6 +67,10 @@
 @media (max-width: 1050px) {
     .nav-links {
         right: 35px;
+
+        .proto:hover .preview-proto, .dev:hover .preview-dev, .viz:hover .preview-viz {
+            width: 61.5%;
+        }
     }
 }
 
