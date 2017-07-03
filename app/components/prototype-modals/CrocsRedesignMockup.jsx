@@ -31,6 +31,10 @@ export default class extends React.Component {
                 {this.state.modal ? (
                     <div className='modal-bg'>
                         <div className='modal-web'>
+                            <button className='top' type='button' onClick={this.close}>
+                                Close
+                            </button>
+
                             <h2 className='text-center montserrat'>
                                 crocs redesign
                             </h2>
@@ -53,7 +57,7 @@ export default class extends React.Component {
                                 <iframe className='artboard' scrolling='no' title='slider + zoom' src='//codepen.io/kcire_kcom/embed/pwezOQ/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameBorder='no' allowTransparency='true' allowFullScreen='true'></iframe>      
                             </div>
 
-                            <button className='text-center' type='button' onClick={this.close}>
+                            <button className='bottom' type='button' onClick={this.close}>
                                 Close
                             </button>
                         </div>

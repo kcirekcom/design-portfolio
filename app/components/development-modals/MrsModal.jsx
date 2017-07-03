@@ -31,6 +31,10 @@ export default class extends React.Component {
                 {this.state.modal ? (
                     <div className='modal-bg'>
                         <div className='modal-web'>
+                            <button className='top' type='button' onClick={this.close}>
+                                Close
+                            </button>
+
                             <h2 className='text-center mrspapers'>
                                 MRS papers
                             </h2>
@@ -49,7 +53,7 @@ export default class extends React.Component {
                                 This application is a self-publishing platform that uses the MEAN stack for development. It delivers transactions to an API that I built, which allows the user to create and modify a manuscript by adding, updating and deleting chapters. This site has the scalability to include many users, but it is currently deployed for personal use only.
                             </div>
 
-                            <button type='button' onClick={this.close}>
+                            <button className='bottom' type='button' onClick={this.close}>
                                 Close
                             </button>
                         </div>

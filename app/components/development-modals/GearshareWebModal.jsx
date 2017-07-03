@@ -31,6 +31,10 @@ export default class extends React.Component {
                 {this.state.modal ? (
                     <div className='modal-bg'>
                         <div className='modal-web'>
+                            <button className='top' type='button' onClick={this.close}>
+                                Close
+                            </button>
+
                             <h2 className='text-center gearshare'>
                                 GEARSHARE
                             </h2>
@@ -49,7 +53,7 @@ export default class extends React.Component {
                                 This application is a marketplace for outdoor winter gear available for rent. The purpose of this application is to connect travelers, beginners, and adventurers with local gear enthusiasts. Developed with the MEAN stack.
                             </div>
 
-                            <button type='button' onClick={this.close}>
+                            <button className='bottom' type='button' onClick={this.close}>
                                 Close
                             </button>
                         </div>

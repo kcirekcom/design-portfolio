@@ -54,9 +54,23 @@
         line-height: $navheight;
         color: $black;
 
+        .main-imageholder img {
+            display: none;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            box-sizing: border-box;
+            border: 10px solid black;
+            margin: 0 auto;
+        }
+
         &:hover {
             background: $black;
             color: $white;
+        }
+
+        &:hover .main-imageholder img {
+            display: block;
         }
     }
 }
@@ -82,6 +96,11 @@
 
         a {
            font-size: $font-sm + 0.25em; 
+
+           .main-imageholder img {
+               width: 150px;
+               height: 150px;
+           }
         }
     }
 }

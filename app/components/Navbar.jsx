@@ -9,6 +9,10 @@ export default class extends React.Component {
                 <h1 className='nav-brand name'>
                     <a href='/'>
                         Erick F. Mock
+
+                        <div className='main-imageholder'>
+                            <img width='200' src={require('../assets/main.jpg')} alt='main profile image'/>
+                        </div>
                     </a>
                 </h1>
 

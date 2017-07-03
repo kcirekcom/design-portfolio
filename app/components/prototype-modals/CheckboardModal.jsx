@@ -31,6 +31,10 @@ export default class extends React.Component {
                 {this.state.modal ? (
                     <div className='modal-bg'>
                         <div className='modal'>
+                            <button className='top' type='button' onClick={this.close}>
+                                Close
+                            </button>
+
                             <h2 className='text-center checkboard'>
                                 the checkboard
                             </h2>
@@ -51,7 +55,7 @@ export default class extends React.Component {
                                 Personal and starred goals sections are listed under the goal sharing section. Users have the option to mark their goals as completed by clicking on the checkmark icon to the right of each goal. Users can navigate the application via the tab bar that 1) fills in the clicked icon and 2) rotates that icon to the center of the bar. This is meant to help users identify exactly which view they are looking at. The best part about this prototype is the vertical search bar displayed in the search view. It provides users with options to search a keyword or click on category icons, which are the same set of icons that must be selected before sharing a goal.
                             </div>
 
-                            <button type='button' onClick={this.close}>
+                            <button className='bottom' type='button' onClick={this.close}>
                                 Close
                             </button>
                         </div>

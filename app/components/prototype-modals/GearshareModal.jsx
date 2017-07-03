@@ -31,6 +31,10 @@ export default class extends React.Component {
                 {this.state.modal ? (
                     <div className='modal-bg'>
                         <div className='modal-web'>
+                            <button className='top' type='button' onClick={this.close}>
+                                Close
+                            </button>
+
                             <h2 className='text-center gearshare web-h'>
                                 GEARSHARE
                             </h2>
@@ -49,7 +53,7 @@ export default class extends React.Component {
                                 There are still a few similarities between this mockup and the built-out product. The first is the landing view that includes both sign in and sign up components in one place, so users don't have to navigate between views to do either. The second is the navbar that is displayed once users are redirected internally, which features a "new post" button. This allows users to post at any point during a session. The final similarity is the filtering option for ski, snowboard and soft goods. The core filtering functionality is there with some added options in the built-out product.
                             </div>                            
 
-                            <button className='text-center' type='button' onClick={this.close}>
+                            <button className='bottom' type='button' onClick={this.close}>
                                 Close
                             </button>
                         </div>

@@ -31,6 +31,10 @@ export default class extends React.Component {
                 {this.state.modal ? (
                     <div className='modal-bg'>
                         <div className='modal-web'>
+                            <button className='top' type='button' onClick={this.close}>
+                                Close
+                            </button>
+
                             <h2 className='text-center fremont'>
                                 FREMONT PATROLLER
                             </h2>
@@ -50,7 +54,7 @@ export default class extends React.Component {
                                 This application provides daily estimates of bike traffic at the Fremont Bridge. Individuals can check the traffic for each day from the past three years, or choose a date range. This application uses seattle.gov’s Socrata (SODA) API.
                             </div>
 
-                            <button type='button' onClick={this.close}>
+                            <button className='bottom' type='button' onClick={this.close}>
                                 Close
                             </button>
                         </div>

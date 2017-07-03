@@ -31,6 +31,10 @@ export default class extends React.Component {
                 {this.state.modal ? (
                     <div className='modal-bg'>
                         <div className='modal-web'>
+                            <button className='top' type='button' onClick={this.close}>
+                                Close
+                            </button>
+
                             <h2 className='text-center novel'>
                                 novel+novel
                             </h2>
@@ -49,7 +53,7 @@ export default class extends React.Component {
                                 The idea is to have users navigate via the circular buttons and bold words. The buttons open and close modal extensions. Clicking on bold words will either save the state of data in an extension, or direct users to a new section/portal. After login and signup, pen names are displayed in the center of the main "plus sign" modal. If users navigate to a new section, the title of that section is then listed in the center.
                             </div>                                
 
-                            <button className='text-center' type='button' onClick={this.close}>
+                            <button className='bottom' type='button' onClick={this.close}>
                                 Close
                             </button>
                         </div>
