@@ -94,14 +94,28 @@
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 900px) {
     .click-div {
         width: 350px;
+        background: rgba(0,0,0,0.1);
 
-        &:hover {
-            .hide {
-                font-size: 0.4em;
-            }
+        .glare {
+            display: none;
+        }
+    }
+
+    .click-div:hover {
+        padding: 50px;
+        border: $black 1px solid;
+        background: rgba(0,0,0,0.1);
+        color: $black;
+
+        .show {
+            display: block;
+        }
+
+        .hide {
+            display: none;
         }
     }
 }

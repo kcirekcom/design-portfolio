@@ -94,6 +94,12 @@
 @media (max-width: 900px) {
     .click-img {
         width: 400px;
+
+        &:hover {
+            outline: none;
+            -webkit-transition: none !important;
+            transition: none !important;
+        }
     }
 
     .data-img-section {
