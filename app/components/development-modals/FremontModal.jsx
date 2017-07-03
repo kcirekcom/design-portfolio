@@ -49,9 +49,9 @@ export default class extends React.Component {
                             </div>
 
                             <div className='info'>
-                                Click <a href='http://fremont-bike-patroller.herokuapp.com' target='_blank'>HERE</a> to view this website.
-                                <br/><br/>
-                                This application provides daily estimates of bike traffic at the Fremont Bridge. Individuals can check the traffic for each day from the past three years, or choose a date range. This application uses seattle.gov’s Socrata (SODA) API.
+                                <span>Click <a href='http://fremont-bike-patroller.herokuapp.com' target='_blank'>HERE</a> to view this website.</span>
+                                
+                                <span>This application provides daily estimates of bike traffic at the Fremont Bridge. Individuals can check the traffic for each day from the past three years, or choose a date range. This application uses seattle.gov’s Socrata (SODA) API.</span>
                             </div>
 
                             <button className='bottom' type='button' onClick={this.close}>

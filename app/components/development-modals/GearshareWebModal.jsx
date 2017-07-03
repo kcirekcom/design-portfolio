@@ -48,9 +48,9 @@ export default class extends React.Component {
                             </div>
 
                             <div className='info'>
-                                Click <a href='https://gear-share-staging.herokuapp.com' target='_blank'>HERE</a> to view this website.
-                                <br/><br/>
-                                This application is a marketplace for outdoor winter gear available for rent. The purpose of this application is to connect travelers, beginners, and adventurers with local gear enthusiasts. Developed with the MEAN stack.
+                                <span>Click <a href='https://gear-share-staging.herokuapp.com' target='_blank'>HERE</a> to view this website.</span>
+                                
+                                <span>This application is a marketplace for outdoor winter gear available for rent. The purpose of this application is to connect travelers, beginners, and adventurers with local gear enthusiasts. Developed with the MEAN stack.</span>
                             </div>
 
                             <button className='bottom' type='button' onClick={this.close}>

@@ -44,15 +44,15 @@ export default class extends React.Component {
                             </div>
 
                             <div className='info'>
-                                Click around to navigate. Any possible interactions will highlight blue when you click onto the artboard above.
-                                <br/><br/>
-                                Click <a href='https://xd.adobe.com/view/dc1a78f8-80ad-4b3c-a922-b66fc7ad3f6f/' target='_blank'>HERE</a> for a slideshow view.
-                                <br/><br/>
-                                This mobile prototype has a basic landing view with signup and login buttons. Both of the signup and login screens can navigate back to the landing view by clicking on either the main title or logo icon. 
-                                <br/><br/>
-                                If users sign up, they are greeted by an introduction modal personalized with their name. Currently, this is the only feedback interaction, but I intend on building more to guide users through the process of sharing their goals.
-                                <br/><br/>
-                                Personal and starred goals sections are listed under the goal sharing section. Users have the option to mark their goals as completed by clicking on the checkmark icon to the right of each goal. Users can navigate the application via the tab bar that 1) fills in the clicked icon and 2) rotates that icon to the center of the bar. This is meant to help users identify exactly which view they are looking at. The best part about this prototype is the vertical search bar displayed in the search view. It provides users with options to search a keyword or click on category icons, which are the same set of icons that must be selected before sharing a goal.
+                                <span>Click around to navigate. Any possible interactions will highlight blue when you click onto the artboard above.</span>
+                                
+                                <span>Click <a href='https://xd.adobe.com/view/dc1a78f8-80ad-4b3c-a922-b66fc7ad3f6f/' target='_blank'>HERE</a> for a slideshow view.</span>
+                                
+                                <span>This mobile prototype has a basic landing view with signup and login buttons. Both of the signup and login screens can navigate back to the landing view by clicking on either the main title or logo icon.</span>
+                                
+                                <span>If users sign up, they are greeted by an introduction modal personalized with their name. Currently, this is the only feedback interaction, but I intend on building more to guide users through the process of sharing their goals.</span>
+                                
+                                <span>Personal and starred goals sections are listed under the goal sharing section. Users have the option to mark their goals as completed by clicking on the checkmark icon to the right of each goal. Users can navigate the application via the tab bar that 1) fills in the clicked icon and 2) rotates that icon to the center of the bar. This is meant to help users identify exactly which view they are looking at. The best part about this prototype is the vertical search bar displayed in the search view. It provides users with options to search a keyword or click on category icons, which are the same set of icons that must be selected before sharing a goal.</span>
                             </div>
 
                             <button className='bottom' type='button' onClick={this.close}>
