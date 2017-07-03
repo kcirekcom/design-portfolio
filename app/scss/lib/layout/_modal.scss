@@ -65,6 +65,14 @@
         .modal {
             width: 400px;
 
+            .modal-frame {
+                display: none;
+            }
+
+            .info p:first-child {
+                display: none;
+            }
+
             .top {
                 position: initial;
                 width: 100%;
