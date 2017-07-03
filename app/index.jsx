@@ -10,6 +10,10 @@ import { Router, Route, browserHistory } from 'react-router';
 
 import './scss/main.scss';
 
+browserHistory.listen(() => {
+    window.scrollTo(0, 0);
+})
+
 ReactDOM.render(
     <Router history={browserHistory}>
         <Route path='/' component={HomePage}/>
