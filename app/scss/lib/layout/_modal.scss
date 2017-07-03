@@ -32,10 +32,16 @@
             line-height: 4vh;
         }
 
-        button {
-           position: absolute;
-           right: 20px;
-           top: 20px;
+        .top {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+        }
+
+        .bottom {
+            float: right;
+            margin-right: 10px;
+            margin-bottom: 10px;
         }
     }
 
@@ -59,9 +65,20 @@
         .modal {
             width: 400px;
 
-            button {
-                right: 3px;
-                top: 3px;
+            .top {
+                position: initial;
+                width: 100%;
+                margin: 0 auto;
+                font-size: 15px;
+                padding: 10px 0px;
+            }
+
+            .bottom {
+                float: none;
+                width: 100%;
+                margin: 0 auto;
+                font-size: 15px;
+                padding: 10px 0px;
             }
         }
     }

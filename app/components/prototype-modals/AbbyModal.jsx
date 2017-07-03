@@ -31,6 +31,10 @@ export default class extends React.Component {
                 {this.state.modal ? (
                     <div className='modal-bg'>
                         <div className='modal'>
+                            <button className='top' type='button' onClick={this.close}>
+                                Close
+                            </button>
+
                             <h2 className='text-center abby'>
                                 ABBY
                             </h2>
@@ -50,8 +54,8 @@ export default class extends React.Component {
                                 <br/><br/>
                                 FOR COMPANY USERS: After successful login and/or signup, this application displays a tab bar that navigates three main views. The first view is an interface designed for uploading the interface mockups. The second view displays any data and results from that company's A/B tests. The third view is designed to be a tool that generates codes for user testers and tracks their completion status. There is also a settings icon in the top right corner of the title header for users to access helpful tools and information at any point during a session.
                             </div>
-
-                            <button type='button' onClick={this.close}>
+                            
+                            <button className='bottom' type='button' onClick={this.close}>
                                 Close
                             </button>
                         </div>
