@@ -45,11 +45,11 @@ export default class extends React.Component {
 
                             <div className='info'>
                                 <p>Click around to navigate. Any possible interactions will highlight blue when you click onto the artboard above.</p>
-                                <br/>
+                        
                                 <p>Click <a href='https://xd.adobe.com/view/15575dd3-62a3-42f3-9921-3d1aed19ea0a/' target='_blank'>HERE</a> for a slideshow view.</p>
-                                <br/>
+                         
                                 <p>A lot still has to be fleshed out in this prototype, including the user flow for agents and publishers. This prototype isn't intended to behave like a normal web application. That being said, several feedback interactions must be built in to guide users throughout the application and to avoid mass amounts of confusion. This instruction and feedback would be activated for writers, agents and publishers that have recently registered.</p>
-                                <br/>
+                        
                                 <p>The idea is to have users navigate via the circular buttons and bold words. The buttons open and close modal extensions. Clicking on bold words will either save the state of data in an extension, or direct users to a new section/portal. After login and signup, pen names are displayed in the center of the main "plus sign" modal. If users navigate to a new section, the title of that section is then listed in the center.</p>
                             </div>                                
 

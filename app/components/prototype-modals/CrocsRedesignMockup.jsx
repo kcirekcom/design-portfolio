@@ -45,11 +45,11 @@ export default class extends React.Component {
 
                             <div className='info'>
                                 <p>Click around to navigate. Any possible interactions will highlight blue when you click onto the artboard above. Scroll down on the landing page to view interactions linked to the orange classic clog image under the "Recommended Just For You" section.</p>
-                                <br/>
+                                
                                 <p>Click <a href='https://xd.adobe.com/view/c1d822e9-a4a2-472e-ae32-ae528cd03489/' target='_blank'>HERE</a> for a slideshow view.</p>
-                                <br/>
+                                
                                 <p>***I WAS NOT CONTRACTED BY CROCS TO DO THIS.***</p>
-                                <br/>
+                                
                                 <p>I just saw this as a fun opportunity to wireframe new features and reorganize some of the landing page content for this major retail website. Differentiated content is designated by the green rectangles. The new features include a toggleable navbar and a reimagined image slider. In this personal project, I prototyped the features and then built out the functionality for the image slider in the CODEPEN editor below. The image slider is enabled automatically and has clickable thumbnail images that appear in the center container when selected. The center container also has zoomable functionality. For a better view, click on the "Edit on CODEPEN" link in the upper right of the editor.</p>
                             </div>
 
