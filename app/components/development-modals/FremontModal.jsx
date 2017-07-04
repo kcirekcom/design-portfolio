@@ -30,6 +30,10 @@ export default class extends React.Component {
 
                 {this.state.modal ? (
                     <div className='modal-bg'>
+                        <span className='x' onClick={this.close}>
+                            &#x2715;
+                        </span>
+
                         <div className='modal-web'>
                             <button className='top' type='button' onClick={this.close}>
                                 Close
@@ -53,10 +57,6 @@ export default class extends React.Component {
                                 
                                 <span>This application provides daily estimates of bike traffic at the Fremont Bridge. Individuals can check the traffic for each day from the past three years, or choose a date range. This application uses seattle.gov’s Socrata (SODA) API.</span>
                             </div>
-
-                            <button className='bottom' type='button' onClick={this.close}>
-                                Close
-                            </button>
                         </div>
                     </div>
                 ) : null}

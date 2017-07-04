@@ -30,6 +30,10 @@ export default class extends React.Component {
 
                 {this.state.modal ? (
                     <div className='modal-bg'>
+                        <span className='x' onClick={this.close}>
+                            &#x2715;
+                        </span>
+
                         <div className='modal-web'>
                             <button className='top' type='button' onClick={this.close}>
                                 Close
@@ -56,10 +60,6 @@ export default class extends React.Component {
                             <div className='text-center modal-frame-codepen'>
                                 <iframe className='artboard' scrolling='no' title='slider + zoom' src='//codepen.io/kcire_kcom/embed/pwezOQ/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameBorder='no' allowTransparency='true' allowFullScreen='true'></iframe>      
                             </div>
-
-                            <button className='bottom' type='button' onClick={this.close}>
-                                Close
-                            </button>
                         </div>
                     </div>
                 ) : null}
