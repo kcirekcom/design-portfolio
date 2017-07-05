@@ -29,7 +29,7 @@ export default class extends React.Component {
                 </div>
 
                 {this.state.modal ? (
-                    <div className='modal-bg'>
+                    <div className='modal-bg' onClick={this.close}>
                         <span className='x' onClick={this.close}>
                             &#x2715;
                         </span>

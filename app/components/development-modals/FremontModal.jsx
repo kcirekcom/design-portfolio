@@ -29,7 +29,7 @@ export default class extends React.Component {
                 <img className='click-img' onClick={this.show} src={require('../../assets/websites/Fremont/Fremont-top.png')} alt='Fremont Patroller top of page view'/>
 
                 {this.state.modal ? (
-                    <div className='modal-bg'>
+                    <div className='modal-bg' onClick={this.close}>
                         <span className='x' onClick={this.close}>
                             &#x2715;
                         </span>
