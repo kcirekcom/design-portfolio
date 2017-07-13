@@ -54,7 +54,7 @@ export default class extends React.Component {
                             <div className='info'>
                                 <span>Click <a href='http://www.mrspapers.com' target='_blank'>HERE</a> to view this website.</span>
                                 
-                                <span>This application is a self-publishing platform that uses the MEAN stack for development. It delivers transactions to an API that I built, which allows the user to create and modify a manuscript by adding, updating and deleting chapters. This site has the scalability to include many users, but it is currently deployed for personal use only.</span>
+                                <span>This application is a self-publishing platform. It delivers transactions to an API that I built, which allows the user to create and modify a manuscript by adding, updating and deleting chapters. This site has the scalability to include many users, but it is currently deployed for personal use only.</span>
                             </div>
                         </div>
                     </div>
