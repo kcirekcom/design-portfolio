@@ -35,13 +35,15 @@ export default class extends React.Component {
                         </span>
 
                         <div className='modal-web'>
-                            <button className='top' type='button' onClick={this.close}>
-                                Close
-                            </button>
+                            <div className='modal-header-web'>
+                                <button className='top' type='button' onClick={this.close}>
+                                    Close
+                                </button>
 
-                            <h2 className='text-center gearshare web-h'>
-                                GEARSHARE
-                            </h2>
+                                <h2 className='text-center gearshare'>
+                                    GEARSHARE
+                                </h2>
+                            </div>
 
                             <div className='text-center modal-frame'>
                                 <iframe className='artboard' src='https://xd.adobe.com/embed/ebca570e-b6c9-4d5d-9f4c-a59af87a5212/' frameBorder='0' allowFullScreen></iframe>

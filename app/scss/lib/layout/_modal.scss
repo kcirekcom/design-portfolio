@@ -38,12 +38,35 @@
         padding: 10px;
         overflow: auto;
 
-        h2 {
-            margin-top: 10px;
-            margin-bottom: 10px;
+        .modal-header {
+            position: fixed;
+            top: 50px;
+            width: 600px;
+            background: $white;
+            padding-top: 5px;
+
+            h2 {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            .top {
+                position: absolute;
+                top: 20px;
+                right: 10px;
+            }
         }
 
-        .info {
+        .modal-header-web {
+            @extend .modal-header;
+            width: 800px;
+        }
+
+        .modal-frame, .modal-frame-mobile {
+            margin-top: 50px;
+        }
+
+        .info, .info-dev, .info-dev-fre {
             width: 80%;
             margin: 0 auto 10px;
             line-height: 4vh;
@@ -57,44 +80,33 @@
                 display: block;
             }
         }
-
-        .top {
-            position: absolute;
-            right: 20px;
-            top: 20px;
-        }
     }
 
     .modal-web {
         @extend .modal;
         width: 800px;
 
-        .web-h {
-            margin-top: 20px;
-            margin-bottom: -10px;
+        .modal-frame {
+            margin-top: 40px;
         }
     }
 
     @media (max-width: 900px) {
         .modal-web {
             width: 600px;
+
+            .modal-header-web {
+                width: 600px;
+            }
         }
 
         .modal .top {
             background: $black;
             color: $white;
-            padding: 5px 10px;
         }
 
         .x {
-            font-size: 20px;
-            right: 5px;
-            top: 5px;
-            border: 2px solid $white;
-
-            &:hover {
-                background: none;
-            }
+            display: none;
         }
     }
 
@@ -102,27 +114,49 @@
         .modal {
             width: 400px;
 
+            .modal-header {
+                width: 400px;
+                padding-top: 0px;
+
+                .top {
+                    position: relative;
+                    width: 95%;
+                    margin-bottom: 25px;
+                    margin-left: 20px;
+                    font-size: 15px;
+                    padding: 10px 0px;
+                }
+            }
+
             .modal-frame {
                 display: none;
+            }
+
+            .modal-frame-mobile {
+                margin-top: 100px;
             }
 
             .info p:first-child {
                 display: none;
             }
+        }
 
-            .top {
-                position: initial;
-                width: 100%;
-                margin: 0 auto;
-                font-size: 15px;
-                padding: 10px 0px;
-            }
+        .modal-web .info {
+            margin-top: 110px;
         }
     }
 
     @media (max-width: 450px) {
         .modal {
             width: 300px;
+
+            .modal-header {
+                width: 300px;
+
+                .top {
+                    margin-left: 18px;
+                }
+            }
         }
     }
 }

@@ -35,13 +35,15 @@ export default class extends React.Component {
                         </span>
 
                         <div className='modal-web'>
-                            <button className='top' type='button' onClick={this.close}>
-                                Close
-                            </button>
+                            <div className='modal-header-web'>
+                                <button className='top' type='button' onClick={this.close}>
+                                    Close
+                                </button>
 
-                            <h2 className='text-center mrspapers'>
-                                MRS papers
-                            </h2>
+                                <h2 className='text-center mrspapers'>
+                                    MRS papers
+                                </h2>
+                            </div>
 
                             <div className='img-section'>
                                 <img className='img' src={require('../../assets/websites/MRS/MRS-home.png')} alt='MRS home view'/>
@@ -51,7 +53,7 @@ export default class extends React.Component {
                                 <img className='img' src={require('../../assets/websites/MRS/MRS-admin-2.png')} alt='MRS second admin view'/>
                             </div>
 
-                            <div className='info'>
+                            <div className='info-dev'>
                                 <span>Click <a href='http://www.mrspapers.com' target='_blank'>HERE</a> to view this website.</span>
                                 
                                 <span>This application is a self-publishing platform. It delivers transactions to an API that I built, which allows the user to create and modify a manuscript by adding, updating and deleting chapters. This site has the scalability to include many users, but it is currently deployed for personal use only.</span>

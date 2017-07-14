@@ -68,9 +68,9 @@
     border: $black 1px solid;
 }
 
-.img-section {
+.img-section, .img-section-fre {
     width: 97%;
-    margin: 0 auto;
+    margin: 50px auto 0px;
 }
 
 @media (max-width: 1050px) {
@@ -121,6 +121,12 @@
     }
 }
 
+@media (max-width: 650px) {
+    .img-section, .img-section-fre {
+        margin: 110px auto 0px;
+    }
+}
+
 @media (max-width: 450px) {
     .click-img {
         width: 350px;
@@ -138,5 +144,9 @@
                 }
             }
         }
+    }
+
+    .img-section-fre {
+        margin: 140px auto 0px;
     }
 }

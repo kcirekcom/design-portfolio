@@ -35,13 +35,15 @@ export default class extends React.Component {
                         </span>
 
                         <div className='modal-web'>
-                            <button className='top' type='button' onClick={this.close}>
-                                Close
-                            </button>
+                            <div className='modal-header-web'>
+                                <button className='top' type='button' onClick={this.close}>
+                                    Close
+                                </button>
 
-                            <h2 className='text-center gearshare'>
-                                GEARSHARE
-                            </h2>
+                                <h2 className='text-center gearshare'>
+                                    GEARSHARE
+                                </h2>
+                            </div>
 
                             <div className='img-section'>
                                 <img className='img' src={require('../../assets/websites/GS/GS-landing.png')} alt='GEARSHARE landing view'/>
@@ -51,7 +53,7 @@ export default class extends React.Component {
                                 <img className='img' src={require('../../assets/websites/GS/GS-bin.png')} alt='GEARSHARE bin component view'/>
                             </div>
 
-                            <div className='info'>
+                            <div className='info-dev'>
                                 <span>Click <a href='https://gear-share-staging.herokuapp.com' target='_blank'>HERE</a> to view this website.</span>
                                 
                                 <span>This application is a marketplace for outdoor winter gear available for rent. The purpose of this application is to connect travelers, beginners, and adventurers with local gear enthusiasts.</span>

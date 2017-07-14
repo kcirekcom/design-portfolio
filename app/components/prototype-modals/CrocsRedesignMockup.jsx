@@ -35,13 +35,15 @@ export default class extends React.Component {
                         </span>
 
                         <div className='modal-web'>
-                            <button className='top' type='button' onClick={this.close}>
-                                Close
-                            </button>
+                            <div className='modal-header-web'>
+                                <button className='top' type='button' onClick={this.close}>
+                                    Close
+                                </button>
 
-                            <h2 className='text-center montserrat'>
-                                crocs redesign
-                            </h2>
+                                <h2 className='text-center montserrat'>
+                                    crocs redesign
+                                </h2>
+                            </div>
 
                             <div className='text-center modal-frame'>
                                 <iframe className='artboard' src='https://xd.adobe.com/embed/c1d822e9-a4a2-472e-ae32-ae528cd03489/' frameBorder='0' allowFullScreen></iframe>
