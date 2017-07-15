@@ -2,7 +2,7 @@
 
 const dotenv = require('dotenv');
 const express = require('express');
-const morgan = require('morgan');
+// const morgan = require('morgan');
 const compression = require('compression');
 
 dotenv.load();
@@ -10,7 +10,7 @@ dotenv.load();
 const PORT = process.env.PORT;
 const app = express();
 
-app.use(morgan(':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:http-version" :status :res[content-length] :response-time ms'));
+// app.use(morgan(':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:http-version" :status :res[content-length] :response-time ms'));
 
 app.use(compression());
 
