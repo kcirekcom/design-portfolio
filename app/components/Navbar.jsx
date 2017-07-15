@@ -32,7 +32,7 @@ export default class extends React.Component {
 
                             <div className='preview-proto'>
                                 Page Preview
-                                <img className='img-preview' src={require('../assets/screenshots/Prototypes-SC.png')} alt='Prototypes page screenshot'/>
+                                <img className='img-preview' src={require('../assets/screenshots/proto-snow.png')} alt='Prototypes page screenshot'/>
                             </div>
                         </Link>
                     </li>
@@ -43,7 +43,7 @@ export default class extends React.Component {
 
                             <div className='preview-dev'>
                                 Page Preview
-                                <img className='img-preview' src={require('../assets/screenshots/Development-SC.png')} alt='Development page screenshot'/>
+                                <img className='img-preview' src={require('../assets/screenshots/dev-snow.png')} alt='Development page screenshot'/>
                             </div>
                         </Link>
                     </li>
@@ -54,7 +54,7 @@ export default class extends React.Component {
 
                             <div className='preview-viz'>
                                 Page Preview
-                                <img className='img-preview' src={require('../assets/screenshots/Visualizations-SC.png')} alt='Development page screenshot'/>
+                                <img className='img-preview' src={require('../assets/screenshots/viz-snow.png')} alt='Development page screenshot'/>
                             </div>
                         </Link>
                     </li>
