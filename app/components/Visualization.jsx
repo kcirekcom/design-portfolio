@@ -35,7 +35,6 @@ export default class extends React.Component {
                             <img src={require('../assets/data-viz/Pioneering-Psychology.jpg')} alt='Visualization of the Origins of Psychology'/>
                         </div>
                     </div>
-
                     
                     <iframe className='iframe' src='https://www.youtube.com/embed/wpE_EevJBmg' frameBorder='0' allowFullScreen></iframe>
                     <iframe className='iframe' src='https://www.youtube.com/embed/V3voeljivNs' frameBorder='0' allowFullScreen></iframe>
